@@ -42,7 +42,6 @@ describe("Recintos do Zoologico", () => {
     expect(resultado.recintosViaveis[2]).toBe(
       "Recinto 3 (espaço livre: 2 total: 7)"
     );
-    
     expect(resultado.recintosViaveis.length).toBe(3);
   });
 });
